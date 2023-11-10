@@ -1,0 +1,155 @@
+body {
+    background-color: #63533c;
+    font-family: "Inter", sans-serif;
+    border-block-color: #a7885d;
+  }
+  
+  ::selection {
+    background: #a7885d;
+  }
+  
+  section {
+    padding-top: 8rem;
+  }
+  
+  .jumbotron {
+    padding-top: 7rem;
+    background-color: purple;
+    color: #ffffff;
+  }
+  
+  .lead {
+    width: auto;
+    font-size: 15px;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #63533c; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.2em; /* Adjust as needed */
+    animation: typing 8s steps(37, end), blink-caret 1.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      max-width: 0;
+    }
+    to {
+      max-width: 100%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #ffffff;
+    }
+  }
+  
+  hr:not([size]) {
+    height: 1px;
+  }
+  
+  hr {
+    margin: 0 auto;
+    width: 30%;
+    padding: 1.2px;
+    color: var(--acsentColor);
+    margin-bottom: 2.4rem;
+    opacity: 100%;
+  }
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  
+  hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  [role="button"] {
+    cursor: pointer;
+  }
+  
+  #skills {
+    background-color: royalblue;
+  }
+  
+  #skills img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s;
+  }
+  
+  #skills img:hover {
+    transform: scale(1.05);
+  }
+
+  #about {
+    background-color: purple;
+  }
+  
+  .justify-content-evenly {
+    justify-content: space-evenly !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+  }
+  
+  #projects {
+    background-color: #63533c;
+  }
+  
+  .card {
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-inner {
+    border: 5px solid #000000;
+  }
+  
+  #contact {
+    background-color: #000000;
+  }
+  
+  .site-footer {
+    background-color: #000000;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal {
+    transform: translateY(0px);
+    opacity: 1;
+  }
