@@ -57,7 +57,7 @@ body {
   
   hr {
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
     padding: 1.2px;
     color: var(--acsentColor);
     margin-bottom: 2.4rem;
@@ -153,3 +153,28 @@ body {
     transform: translateY(0px);
     opacity: 1;
   }
+  
+  /* Gaya baru untuk logo */
+.logo {
+  transition: transform 0.3s ease-in-out; /* Efek transisi untuk animasi */
+}
+
+/* Efek hover untuk logo */
+.logo:hover {
+  transform: scale(1.3); /* Ubah ukuran logo saat dihover */
+}
+
+.logo-link {
+  margin-right: 30px; /* Menentukan jarak horizontal antara setiap gambar */
+}
+
+.logo {
+  margin-bottom: 20px; /* Menentukan jarak vertikal antara setiap gambar */
+}
+
+/* For responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .skill div {
+      flex-basis: 50%; /* Adjust as needed, this will make two items per row */
+  }
+}
