@@ -178,3 +178,45 @@ body {
       flex-basis: 50%; /* Adjust as needed, this will make two items per row */
   }
 }
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-md-4 {
+    text-align: center;
+  }
+}
+
+.audio-box {
+  width: 100%;
+  max-width: 400px; /* Sesuaikan dengan lebar yang diinginkan */
+  border: 1px solid #ffffff; /* Tambahkan border sesuai kebutuhan */
+  padding: 10px;
+  border-radius: 5px;
+}
+.audio-box audio {
+  width: 100%;
+}
+
+#music {
+  background-color :#a4a5a6;
+}
+
+#music img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s;
+}
+
+#music img:hover {
+  transform: scale(1.05);
+}
+
+.audio-box {
+  background-color: grey;
+  border: white solid 3px;
+}
