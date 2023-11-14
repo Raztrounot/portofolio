@@ -15,3 +15,13 @@ ul.addEventListener("click", (e) => {
   }
 });
 
+$('a.nav-link').on('click', function(e) {
+  e.preventDefault();
+
+  var targetId = $(this).attr('href');
+  var offset = $(targetId).offset().top;
+
+  $('html, body').animate({
+    scrollTop: offset
+  }, 1000);
+});

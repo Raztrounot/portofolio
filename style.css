@@ -276,3 +276,27 @@ body {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lead {
+    font-size: 12px;
+  }
+
+  #skills img {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  #music img {
+    width: 200px;
+    height: 100px;
+  }
+
+  /* Add more responsive styles as needed */
+}
