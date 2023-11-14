@@ -1,11 +1,11 @@
 body {
-    background-color: #63533c;
+    background-color: #800000;
     font-family: "Inter", sans-serif;
     border-block-color: #a7885d;
   }
   
   ::selection {
-    background: #a7885d;
+    background: #800000;
   }
   
   section {
@@ -14,7 +14,7 @@ body {
   
   .jumbotron {
     padding-top: 7rem;
-    background-color: purple;
+    background-color: #004080;
     color: #ffffff;
   }
   
@@ -88,7 +88,7 @@ body {
   }
   
   #skills {
-    background-color: royalblue;
+    background-color: #006400;
   }
   
   #skills img {
@@ -103,7 +103,7 @@ body {
   }
 
   #about {
-    background-color: purple;
+    background-color: #800000;
   }
   
   .justify-content-evenly {
@@ -131,11 +131,11 @@ body {
   }
   
   #contact {
-    background-color: #000000;
+    background-color: #800000;
   }
   
   .site-footer {
-    background-color: #000000;
+    background-color: #800000;
   }
   
   a {
@@ -202,12 +202,12 @@ body {
 }
 
 #music {
-  background-color :#a4a5a6;
+  background-color :#004080;
 }
 
 #music img {
   display: block;
-  width: 150px;
+  width: 300px;
   height: 150px;
   transition: all 0.3s;
 }
@@ -217,6 +217,16 @@ body {
 }
 
 .audio-box {
-  background-color: grey;
+  background-color: royalblue;
   border: white solid 3px;
 }
+
+
+    /* Ganti warna tombol utama */
+    .btn-primary {
+        background-color: royalblue; /* Ganti dengan kode warna yang diinginkan */
+    }
+
+    #partof {
+      background-color: #006400;
+    }
