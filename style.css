@@ -121,6 +121,10 @@ body {
   .card {
     transition: all 0.3s;
   }
+
+  #partof {
+    background-color: #006400;
+  }
   
   .card:hover {
     transform: scale(1.05);
@@ -219,4 +223,56 @@ body {
 .audio-box {
   background-color: royalblue;
   border: white solid 3px;
+}
+
+@media (max-width: 768px) {
+  #songDropdown1 {
+    margin-bottom: 1rem;
+  }
+  #audio-box {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 1rem;
+  }
+}
+
+/* Responsive Skills Section */
+@media (max-width: 768px) {
+  .skill {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.3rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
