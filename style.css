@@ -220,13 +220,3 @@ body {
   background-color: royalblue;
   border: white solid 3px;
 }
-
-
-    /* Ganti warna tombol utama */
-    .btn-primary {
-        background-color: royalblue; /* Ganti dengan kode warna yang diinginkan */
-    }
-
-    #partof {
-      background-color: #006400;
-    }
