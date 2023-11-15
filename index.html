@@ -25,7 +25,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body id="home">
     <!-- Start of Navbar -->
@@ -69,7 +68,7 @@
     <section class="jumbotron" id="about">
       <div class="row" data-aos="zoom-in" data-aos-duration="1000" style="padding-bottom: 7rem; margin-right: 2rem;">
         <div class="col-md-4">
-          <img src="p/pp (2).jpg" alt="Ibaz" width="320" class="img-thumbnail" style="margin-left: 2rem;">
+          <img src="p/pp (2).jpg" alt="Ibaz" width="320" class="img-thumbnail" style="margin-left: 3rem;">
         </div>
         <div class="col-md-4" style="padding-left: 3rem;">
         <h1 class="display-4">Baswara Hafizh Muttaqin</h1>
@@ -208,6 +207,8 @@
                 <option value="dear">Dear God - Avenged Sevenfold</option>
                 <option value="pumped">Pumped Up Kicks - Foster The People</option>
                 <option value="fluorescent">Fluorescent Adolescent - Arctic Monkeys</option>
+                <option value="letting">I Love You But I'm Letting Go - Pamungkas</option>
+                <option value="galau">Lagu Galau - Yowis Ben</option>
               </select>
               <h3 id="songTitle1">Dear God - Avenged Sevenfold</h3>
               <span style="font-size: 14px;"></span>
@@ -242,6 +243,14 @@
           case "fluorescent":
             audioSourceElement.src = "p/Fluorescent.mp3";
             titleElement.innerText = "Fluorescent Adolescent - Arctic Monkeys";
+            break;
+          case "letting":
+            audioSourceElement.src = "p/letting.mp3";
+            titleElement.innerText = "I Love You But I'm Letting Go - Pamungkas";
+            break;
+          case "galau":
+            audioSourceElement.src = "p/galau.mp3";
+            titleElement.innerText = "Lagu Galau - Yowis Ben";
             break;
           // Add cases for other songs if needed
         }
@@ -303,7 +312,7 @@
             </div>
         <div class="social" style="margin-bottom: 50px; margin-top: 10px; text-decoration: none; padding-left: 2rem;">
           <a href="https://github.com/raztrounot" class="logo-link">
-            <img src="p/github.png"  width="30" class="logo" ></img>
+            <img src="p/github.png"  width="30" class="logo"></img>
           </a>
           <a href="https://discord.gg/bPfyuYzp6k" class="logo-link">
             <img src="p/dc.png"  width="30" class="logo"></img>

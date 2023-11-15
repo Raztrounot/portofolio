@@ -205,98 +205,18 @@ body {
   width: 100%;
 }
 
+.audio-box {
+  margin: 0 auto; /* Ini akan memusatkan elemen secara horizontal */
+  text-align: center; /* Ini akan memusatkan teks di dalam elemen */
+}
+
+
 #music {
   background-color :#004080;
 }
 
-#music img {
-  display: block;
-  width: 300px;
-  height: 150px;
-  transition: all 0.3s;
-}
-
-#music img:hover {
-  transform: scale(1.05);
-}
 
 .audio-box {
   background-color: royalblue;
   border: white solid 3px;
-}
-
-@media (max-width: 768px) {
-  #songDropdown1 {
-    margin-bottom: 1rem;
-  }
-  #audio-box {
-    margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .site-footer {
-    padding-top: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .jumbotron {
-    padding: 1rem;
-  }
-}
-
-/* Responsive Skills Section */
-@media (max-width: 768px) {
-  .skill {
-    margin-top: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.8rem;
-  }
-  h4 {
-    font-size: 1.5rem;
-  }
-  h5 {
-    font-size: 1.3rem;
-  }
-  h6 {
-    font-size: 1.2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .lead {
-    font-size: 12px;
-  }
-
-  #skills img {
-    width: 80px;
-    height: 80px;
-  }
-
-
-  #music img {
-    width: 200px;
-    height: 100px;
-  }
-
-  /* Add more responsive styles as needed */
 }
