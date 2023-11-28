@@ -197,26 +197,21 @@ body {
 .audio-box {
   width: 100%;
   max-width: 400px; /* Sesuaikan dengan lebar yang diinginkan */
-  border: 1px solid #ffffff; /* Tambahkan border sesuai kebutuhan */
-  padding: 10px;
-  border-radius: 5px;
+  border: 2px solid #ffffff; /* Tambahkan border sesuai kebutuhan */
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4); /* Ganti warna dan nilai alpha sesuai kebutuhan */
+  padding: 20px;
+  border-radius: 10px;
 }
+
 .audio-box audio {
   width: 100%;
 }
 
-.audio-box {
-  margin: 0 auto; /* Ini akan memusatkan elemen secara horizontal */
-  text-align: center; /* Ini akan memusatkan teks di dalam elemen */
-}
-
 
 #music {
-  background-color :#004080;
-}
-
-
-.audio-box {
-  background-color: royalblue;
-  border: white solid 3px;
+  background-image: url(p/knsr.jpg);
+  background-size: cover;
+  background-position: center;
 }
