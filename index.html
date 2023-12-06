@@ -196,7 +196,7 @@
     <section id="music">
       <div class="container" data-aos="fade-right" data-aos-duration="2000" style="padding-top: 1rem; padding-bottom: 5rem ; margin-top: 5rem; ; margin-bottom: -2rem;">
         <div class="row justify-content-center text-center">
-          <div class="col mb-4 text-white">
+          <div class="col mb-4 text-white" style="padding-bottom: 5rem;">
             <h2>Fav Music !</h2>
             <hr />
           </div>
@@ -207,6 +207,7 @@
               <label for="songDropdown1" style="margin-bottom: 1rem;">Pilih Lagu !</label>
               <select id="songDropdown1" class="form-control" style="margin-bottom:1rem;" onchange="changeSong()">
                 <option value="dear">Dear God - Avenged Sevenfold</option>
+                <option value="light">Light Switch - Charlie Puth</option>
                 <option value="pumped">Pumped Up Kicks - Foster The People</option>
                 <option value="fluorescent">Fluorescent Adolescent - Arctic Monkeys</option>
                 <option value="letting">I Love You But I'm Letting Go - Pamungkas</option>
@@ -224,50 +225,13 @@
         </div>
       </div>
     </section>
-    <script>
-      function changeSong() {
-        var dropdown = document.getElementById("songDropdown1");
-        var selectedValue = dropdown.value;
-    
-        var titleElement = document.getElementById("songTitle1");
-        var audioElement = document.getElementById("audio1");
-        var audioSourceElement = document.getElementById("audioSource1");
-    
-        switch (selectedValue) {
-          case "dear":
-            audioSourceElement.src = "p/dear.mp3";
-            titleElement.innerText = "Dear God - Avenged Sevenfold";
-            break;
-          case "pumped":
-            audioSourceElement.src = "p/Pumped.mp3";
-            titleElement.innerText = "Pumped Up Kicks - Foster The People";
-            break;
-          case "fluorescent":
-            audioSourceElement.src = "p/Fluorescent.mp3";
-            titleElement.innerText = "Fluorescent Adolescent - Arctic Monkeys";
-            break;
-          case "letting":
-            audioSourceElement.src = "p/letting.mp3";
-            titleElement.innerText = "I Love You But I'm Letting Go - Pamungkas";
-            break;
-          case "galau":
-            audioSourceElement.src = "p/galau.mp3";
-            titleElement.innerText = "Lagu Galau - Yowis Ben";
-            break;
-          // Add cases for other songs if needed
-        }
-    
-        // Load the new audio source
-        audioElement.load();
-      }
-    </script>
     <!-- End Music -->
     <!-- card -->
     <section id="partof">
       <div class="container" data-aos="fade-up" data-aos-duration="1000" style="padding-bottom: 5rem;">
         <div class="row justify-content-center text-center">
           <div class="col mb-4 text-white">
-            <h2>Part Of!</h2>
+            <h2>Part Of !</h2>
             <hr />
           </div>
           <div class="row justify-content-center">
