@@ -65,7 +65,7 @@
     </nav>
     <!-- End of Navbar -->
     <!-- Start of Jumbotron -->
-    <section class="jumbotron" id="about" style="padding-bottom: 5rem; margin-top: 1rem;">
+    <section id="jumbotron" class="jumbotron" id="about" style="padding-bottom: 5rem; margin-top: 1rem;">
       <div class="row" data-aos="zoom-in" data-aos-duration="1000" style=" margin-right: 2rem;">
         <div class="col-md-4">
           <img src="p/pp (2).jpg" alt="Ibaz" width="300" class="img-thumbnail" style="margin-left: 2.5rem;">
@@ -207,7 +207,7 @@
               <label for="songDropdown1" style="margin-bottom: 1rem;">Pilih Lagu !</label>
               <select id="songDropdown1" class="form-control" style="margin-bottom:1rem;" onchange="changeSong()">
                 <option value="dear">Dear God - Avenged Sevenfold</option>
-                <option value="light">Light Switch - Charlie Puth</option>
+                <option value="light">Light Switch - </option>
                 <option value="pumped">Pumped Up Kicks - Foster The People</option>
                 <option value="fluorescent">Fluorescent Adolescent - Arctic Monkeys</option>
                 <option value="letting">I Love You But I'm Letting Go - Pamungkas</option>
@@ -296,26 +296,22 @@
       </footer>
     </section>
 
-    <!-- Modal Discord -->
-    <div class="modal fade" id="discordModal" tabindex="-1" aria-labelledby="discordModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="bootstrapModalLabel">Discord Channel</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body text-center justify-content-center">
-                  <!-- Isi modal dengan konten Discord atau tautan undangan -->
-                  <p>Username :</p>
-                  <p>raztrounot</p>
-                  <p>OR</p>
-                  <p>Join My Discord Server !</p>
-                  <a href="https://discord.gg/bPfyuYzp6k" target="_blank" class="btn btn-primary btn-sm" style="margin-bottom: 2rem;">Raftel Zone Discord Server !</a>
-              </div>
-          </div>
-      </div>
-  </div>
-  
+   <div class="modal fade" id="discordModal" tabindex="-1" aria-labelledby="discordModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="discordModalLabel">Discord</h1>
+            </div>
+            <div class="modal-body">
+                My Username: raztrounot, If you want to join my Discord Server, click Continue!!!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://discord.gg/bPfyuYzp6k'">Continue</button>
+            </div>
+        </div>
+    </div>
+    </div>
 
    
     
